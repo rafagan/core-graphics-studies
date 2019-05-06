@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26ADA29B18451178001A5E11 /* EditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ADA29A18451178001A5E11 /* EditionView.m */; };
+		26D44D47183BC65100EED7D6 /* RaVec2.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44D46183BC65100EED7D6 /* RaVec2.m */; };
+		26D44D95183C03EE00EED7D6 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44D94183C03EE00EED7D6 /* TouchView.m */; };
+		26D44D97183C370900EED7D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D44D96183C370900EED7D6 /* MainStoryboard.storyboard */; };
+		26D44D99183CD09100EED7D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D44D98183CD09100EED7D6 /* Images.xcassets */; };
+		26D44D9C183CD35700EED7D6 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44D9B183CD35700EED7D6 /* OptionsViewController.m */; };
+		26D44D9F183CFEF800EED7D6 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44D9E183CFEF800EED7D6 /* DataSource.m */; };
+		26D44DA2183DB56D00EED7D6 /* MathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44DA1183DB56D00EED7D6 /* MathUtils.m */; };
+		26D44DA5183E16A400EED7D6 /* OpPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D44DA4183E16A400EED7D6 /* OpPolygonView.m */; };
+		AB379E2B1844172100A8FB79 /* EditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB379E2A1844172100A8FB79 /* EditionView.xib */; };
 		AB8B768A183549DE002D2790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B7689183549DE002D2790 /* Foundation.framework */; };
 		AB8B768C183549DE002D2790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B768B183549DE002D2790 /* CoreGraphics.framework */; };
 		AB8B768E183549DE002D2790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B768D183549DE002D2790 /* UIKit.framework */; };
 		AB8B7694183549DE002D2790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8B7692183549DE002D2790 /* InfoPlist.strings */; };
 		AB8B7696183549DE002D2790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B7695183549DE002D2790 /* main.m */; };
 		AB8B769A183549DE002D2790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B7699183549DE002D2790 /* AppDelegate.m */; };
-		AB8B769D183549DE002D2790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8B769B183549DE002D2790 /* Main.storyboard */; };
-		AB8B76A0183549DE002D2790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B769F183549DE002D2790 /* ViewController.m */; };
-		AB8B76A2183549DE002D2790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8B76A1183549DE002D2790 /* Images.xcassets */; };
 		AB8B76A9183549DF002D2790 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B76A8183549DF002D2790 /* XCTest.framework */; };
 		AB8B76AA183549DF002D2790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B7689183549DE002D2790 /* Foundation.framework */; };
 		AB8B76AB183549DF002D2790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8B768D183549DE002D2790 /* UIKit.framework */; };
 		AB8B76B3183549DF002D2790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB8B76B1183549DF002D2790 /* InfoPlist.strings */; };
 		AB8B76B5183549DF002D2790 /* TrabalhoGrupoDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B76B4183549DF002D2790 /* TrabalhoGrupoDrawTests.m */; };
+		AB8B76C818354DD2002D2790 /* MainDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B76C718354DD2002D2790 /* MainDrawViewController.m */; };
+		AB8B76CD18355093002D2790 /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B76CC18355093002D2790 /* Polygon.m */; };
+		AB8B76D018355556002D2790 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8B76CF18355556002D2790 /* PolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26ADA29918451178001A5E11 /* EditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditionView.h; sourceTree = "<group>"; };
+		26ADA29A18451178001A5E11 /* EditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditionView.m; sourceTree = "<group>"; };
+		26D44D45183BC65100EED7D6 /* RaVec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaVec2.h; sourceTree = "<group>"; };
+		26D44D46183BC65100EED7D6 /* RaVec2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaVec2.m; sourceTree = "<group>"; };
+		26D44D93183C03EE00EED7D6 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		26D44D94183C03EE00EED7D6 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		26D44D96183C370900EED7D6 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		26D44D98183CD09100EED7D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26D44D9A183CD35700EED7D6 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		26D44D9B183CD35700EED7D6 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		26D44D9D183CFEF800EED7D6 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		26D44D9E183CFEF800EED7D6 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		26D44DA0183DB56D00EED7D6 /* MathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtils.h; sourceTree = "<group>"; };
+		26D44DA1183DB56D00EED7D6 /* MathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathUtils.m; sourceTree = "<group>"; };
+		26D44DA3183E16A400EED7D6 /* OpPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpPolygonView.h; sourceTree = "<group>"; };
+		26D44DA4183E16A400EED7D6 /* OpPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpPolygonView.m; sourceTree = "<group>"; };
+		AB379E2A1844172100A8FB79 /* EditionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditionView.xib; sourceTree = "<group>"; };
 		AB8B7686183549DE002D2790 /* TrabalhoGrupoDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrabalhoGrupoDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8B7689183549DE002D2790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB8B768B183549DE002D2790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +71,17 @@
 		AB8B7697183549DE002D2790 /* TrabalhoGrupoDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrabalhoGrupoDraw-Prefix.pch"; sourceTree = "<group>"; };
 		AB8B7698183549DE002D2790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB8B7699183549DE002D2790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB8B769C183549DE002D2790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB8B769E183549DE002D2790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB8B769F183549DE002D2790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB8B76A1183549DE002D2790 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB8B76A7183549DF002D2790 /* TrabalhoGrupoDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrabalhoGrupoDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8B76A8183549DF002D2790 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AB8B76B0183549DF002D2790 /* TrabalhoGrupoDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrabalhoGrupoDrawTests-Info.plist"; sourceTree = "<group>"; };
 		AB8B76B2183549DF002D2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB8B76B4183549DF002D2790 /* TrabalhoGrupoDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrabalhoGrupoDrawTests.m; sourceTree = "<group>"; };
+		AB8B76C618354DD2002D2790 /* MainDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDrawViewController.h; sourceTree = "<group>"; };
+		AB8B76C718354DD2002D2790 /* MainDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDrawViewController.m; sourceTree = "<group>"; };
+		AB8B76CB18355093002D2790 /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		AB8B76CC18355093002D2790 /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
+		AB8B76CE18355556002D2790 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		AB8B76CF18355556002D2790 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D44D44183BC62400EED7D6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				26D44D45183BC65100EED7D6 /* RaVec2.h */,
+				26D44D46183BC65100EED7D6 /* RaVec2.m */,
+				26D44DA0183DB56D00EED7D6 /* MathUtils.h */,
+				26D44DA1183DB56D00EED7D6 /* MathUtils.m */,
+			);
+			name = Helper;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		AB8B767D183549DE002D2790 = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +153,13 @@
 		AB8B768F183549DE002D2790 /* TrabalhoGrupoDraw */ = {
 			isa = PBXGroup;
 			children = (
+				26D44D98183CD09100EED7D6 /* Images.xcassets */,
+				26D44D44183BC62400EED7D6 /* Helper */,
+				AB8B76C018354D23002D2790 /* Controller */,
+				AB8B76BF18354D1D002D2790 /* View */,
+				AB8B76BE18354D0C002D2790 /* Model */,
 				AB8B7698183549DE002D2790 /* AppDelegate.h */,
 				AB8B7699183549DE002D2790 /* AppDelegate.m */,
-				AB8B769B183549DE002D2790 /* Main.storyboard */,
-				AB8B769E183549DE002D2790 /* ViewController.h */,
-				AB8B769F183549DE002D2790 /* ViewController.m */,
-				AB8B76A1183549DE002D2790 /* Images.xcassets */,
 				AB8B7690183549DE002D2790 /* Supporting Files */,
 			);
 			path = TrabalhoGrupoDraw;
@@ -150,6 +192,48 @@
 				AB8B76B1183549DF002D2790 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8B76BE18354D0C002D2790 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B76CB18355093002D2790 /* Polygon.h */,
+				AB8B76CC18355093002D2790 /* Polygon.m */,
+				26D44D9D183CFEF800EED7D6 /* DataSource.h */,
+				26D44D9E183CFEF800EED7D6 /* DataSource.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AB8B76BF18354D1D002D2790 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B76CE18355556002D2790 /* PolygonView.h */,
+				AB8B76CF18355556002D2790 /* PolygonView.m */,
+				26D44D93183C03EE00EED7D6 /* TouchView.h */,
+				26D44D94183C03EE00EED7D6 /* TouchView.m */,
+				26D44D96183C370900EED7D6 /* MainStoryboard.storyboard */,
+				26D44DA3183E16A400EED7D6 /* OpPolygonView.h */,
+				26D44DA4183E16A400EED7D6 /* OpPolygonView.m */,
+				AB379E2A1844172100A8FB79 /* EditionView.xib */,
+				26ADA29918451178001A5E11 /* EditionView.h */,
+				26ADA29A18451178001A5E11 /* EditionView.m */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AB8B76C018354D23002D2790 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB8B76C618354DD2002D2790 /* MainDrawViewController.h */,
+				AB8B76C718354DD2002D2790 /* MainDrawViewController.m */,
+				26D44D9A183CD35700EED7D6 /* OptionsViewController.h */,
+				26D44D9B183CD35700EED7D6 /* OptionsViewController.m */,
+			);
+			name = Controller;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8B76A2183549DE002D2790 /* Images.xcassets in Resources */,
+				AB379E2B1844172100A8FB79 /* EditionView.xib in Resources */,
+				26D44D99183CD09100EED7D6 /* Images.xcassets in Resources */,
+				26D44D97183C370900EED7D6 /* MainStoryboard.storyboard in Resources */,
 				AB8B7694183549DE002D2790 /* InfoPlist.strings in Resources */,
-				AB8B769D183549DE002D2790 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +334,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8B76A0183549DE002D2790 /* ViewController.m in Sources */,
+				26D44DA5183E16A400EED7D6 /* OpPolygonView.m in Sources */,
+				26D44D47183BC65100EED7D6 /* RaVec2.m in Sources */,
+				26D44DA2183DB56D00EED7D6 /* MathUtils.m in Sources */,
+				AB8B76CD18355093002D2790 /* Polygon.m in Sources */,
+				26D44D95183C03EE00EED7D6 /* TouchView.m in Sources */,
+				AB8B76C818354DD2002D2790 /* MainDrawViewController.m in Sources */,
 				AB8B769A183549DE002D2790 /* AppDelegate.m in Sources */,
+				26D44D9C183CD35700EED7D6 /* OptionsViewController.m in Sources */,
 				AB8B7696183549DE002D2790 /* main.m in Sources */,
+				AB8B76D018355556002D2790 /* PolygonView.m in Sources */,
+				26D44D9F183CFEF800EED7D6 /* DataSource.m in Sources */,
+				26ADA29B18451178001A5E11 /* EditionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +374,6 @@
 				AB8B7693183549DE002D2790 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AB8B769B183549DE002D2790 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB8B769C183549DE002D2790 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		AB8B76B1183549DF002D2790 /* InfoPlist.strings */ = {
@@ -460,6 +546,7 @@
 				AB8B76BA183549DF002D2790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB8B76BB183549DF002D2790 /* Build configuration list for PBXNativeTarget "TrabalhoGrupoDrawTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +555,7 @@
 				AB8B76BD183549DF002D2790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
